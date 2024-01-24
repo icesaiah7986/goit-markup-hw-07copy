@@ -36,6 +36,11 @@
             <a class="contact links" href="tel:+110001111111"> +11 (000) 111-11-11</a>
           </li>
         </ul>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="mobile-menu-icon" width="32" height="22">
+            <use href="images/sprite.svg#burger"/>
+          </svg>
+        </button>
       </address>
     </div>
   </header>
@@ -368,7 +373,7 @@
     </section>
   </main>
   <footer class="page-footer">
-    <div class="container">
+    <div class="footer-division container">
       <div class="footer-logo-wrapper list">
           <a class="logo links" href="./index.html">Web<span class="logo-white">Studio</span>
           </a>
@@ -470,7 +475,7 @@
           <label class="terms-conditions" for="user-privacy">
             <span class="form-agreement-text">
               <svg class="modal-checkbox-icon" width="10" height="8">
-                <use href="./images/icons.svg#checkbox" ></use>
+                <use href="./images/sprite.svg#checkbox"></use>
               </svg>
             </span>
             I accept the terms and conditions of the <a href="#" class="privacy-link">Privacy Policy</a>
@@ -480,7 +485,8 @@
       </form>      
     </div>
   </div>
-  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script> 
 </body>
 </html>
 

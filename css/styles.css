@@ -61,7 +61,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 1115px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -139,6 +139,7 @@ img {
 .nav-menu {
     margin-left: 76px;
 }
+
 
 .page {
   padding: 24px 0;
@@ -1110,150 +1111,3 @@ img {
 
 
 
-
-
-
-
-/* Media Queries - Index */
-
-@media only screen and (min-width: 428px) and (max-width: 767px) {
-  .container {
-    width: 428px;
-    margin: 0 auto;
-  
-  }
-}
-
-@media only screen and (min-width: 428px) and (max-width: 767px), only screen and (max-width: 427px) {
-  .nav-menu,
-  .contacts-menu {
-    display: none;
-  }
-
-  .page-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-  }
-
-  .hero h1{
-    display: block;
-    max-width: 320px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 0 auto 72px;
-
-  }
-
-  .item .icon,
-  .offer-section {
-    display: none;
-  }
-
-  .features {
-    width: 100%;
-    min-height: 120px;
-    gap: 72px 24px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-  .features-item-header {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-  }
-
-  .team-members {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 72px;
-
-  }
-
-  .members {
-    margin: 0;
-  }
-
-  .client-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 72px 16px;
-  }
-
-  .footer-division {
-    display: flex;
-    gap: 72px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .footer-logo-wrapper {
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 0;
-
-  }
-
-  .footer-logo-wrapper p {
-    text-align: start;
-  }
-
-  .social-media-container {
-    margin: 0 auto;
-  }
-
-  .social-media-text {
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .footer-form-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    gap: 16px;
-    
-  }
-  
-  .footer-subscription-text {
-    margin: 0 auto;
-  }
-
-  .footer-subscription-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-}
-
-/* Media Queries - Portfolio */
-
-
-
-
-
-@media only screen and (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-}
